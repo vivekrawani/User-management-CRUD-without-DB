@@ -1,28 +1,4 @@
-
-
-let users = [
-    {
-        "username" : "vivek_erwin",
-        "password" : "iloveuanjali:-)",
-        "phone": "9000500098",
-        "name": "vivek Rawani"
-    },
-    
-    {
-        "username" : "omprakashji",
-        "password" : "iloveusheetal:-)",
-        "phone": "9000500068",
-        "name": "Om Prakash"
-    },
-    
-    {
-        "username" : "rockvinod",
-        "password" : "iloveudj:-)",
-        "phone": "9000900068",
-        "name": "Vinod"
-    }
-];
-
+import { users } from "../mock-data.js";
 export const getUsers = (req, res)=>{
     res.send(users);
 };
